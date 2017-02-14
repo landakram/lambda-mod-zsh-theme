@@ -26,6 +26,7 @@ function get_right_prompt() {
     else
         echo -n "%{$reset_color%}"
     fi
+    echo -n " $(virtualenv_info)"
 }
 
 PROMPT='
